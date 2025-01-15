@@ -37,9 +37,13 @@ main {
     margin: auto;
 }
 
-button:hover {
-    background-color: #00b342; 
+button {
+    cursor: pointer;
+    .button:hover {
+        background-color: #00b342; 
+    }
 }
+
 
 /* HEADER STYLES */ 
 header {
@@ -150,11 +154,6 @@ nav#menu a {
     font-weight: bold;
 }
 
-#learn-more-btn:hover {
-    background-color: #009643;
-    color: white;
-}
-
 
 /* FEATURED PROJECTS STYLES */
 
@@ -206,7 +205,7 @@ nav#menu a {
     
 }
 
-#view-project-1 {
+#project-1-btn {
     background-color: white;
     color: #333;
     border: none;
@@ -214,14 +213,13 @@ nav#menu a {
     font-size: 16px;
     border-radius: 5px;
     font-weight: bold;
-    margin: auto;
-    margin-top: 250px;
-    grid-area: 1 / 1 / 2 / 2; /* Adjusted grid area to push the button down */
+    grid-area: 1 / 1 / 2 / 3;
+    justify-self: start;
+    align-self: end;
     cursor: pointer;
-
 }
 
-.project-details button:hover {
+#project-1-btn:hover {
     background-color: #009643;
 }
 
