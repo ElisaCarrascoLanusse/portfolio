@@ -206,20 +206,19 @@ nav#menu a {
     
 }
 
-.project-details button {
+#view-project-1 {
     background-color: white;
     color: #333;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
     margin: auto;
     margin-top: 250px;
     grid-area: 1 / 1 / 2 / 2; /* Adjusted grid area to push the button down */
-    align-self:first baseline /* Adjusts vertical alignment within the grid area */
-    justify-self: start; /* Adjusts horizontal alignment within the grid area */
+    cursor: pointer;
+
 }
 
 .project-details button:hover {
