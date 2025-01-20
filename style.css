@@ -261,7 +261,7 @@ nav#menu a {
 }
 
 #project-1-img img {
-    width: 300px;
+    width: 225px;
     border-radius: 10px;
     margin: 0;
 }
@@ -326,7 +326,7 @@ nav#menu a {
 }
 
 #project-2-img img {
-    width: 300px;
+    width: 225px;
     border-radius: 10px;
     margin: 0;
 }
@@ -363,7 +363,6 @@ nav#menu a {
     justify-self: start; /* Adjusts horizontal alignment within the grid area */
     padding: 5px; 
     width: 100%;
-    
 }
 
 #project-3-btn {
@@ -393,7 +392,7 @@ nav#menu a {
 }
 
 #project-3-img img {
-    width: 300px;
+    width: 225px;
     border-radius: 10px;
     margin: 0;
 }
